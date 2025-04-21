@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**** nav ****/
+
+.nav {
+    background-color: black;
+   
+}
+
+nav > img {
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+/*background-image: url("/assets/img/OIP.jpg");*/
+/**** Hero ****/
+/*
+.hero {
+    
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > div {
+    display: block;
+}
+
+.hero > form {
+    
+    background-color: white;
+    padding: 15px;
+}
+
+.hero > form {
+    width: 100px;
+}
+*/
