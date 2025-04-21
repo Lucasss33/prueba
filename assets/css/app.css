@@ -12,31 +12,96 @@
 }
 
 nav > img {
+    padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
+    padding-left: 80px;
 }
-/*background-image: url("/assets/img/OIP.jpg");*/
+
 /**** Hero ****/
-/*
+
 .hero {
-    
-    background-color: beige;
+    background-image: url("../img/OIP.jpg");
+
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    height: 400px;
 }
 
 .hero > div {
-    display: block;
+    width: 250px;
+    margin: 5;
+}
+
+.hero > div h2,
+.hero > div p {
+    color: white;
 }
 
 .hero > form {
-    
     background-color: white;
-    padding: 15px;
+    width: 250px;
+    padding: 30px;
+    
 }
 
-.hero > form {
-    width: 100px;
+.hero > form .title {
+    text-align: center;
+    margin: 5px;
 }
-*/
+
+
+.hero > form input {
+    padding: 4px 2px;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.hero > form .button {
+    background-color: rgb(15, 134, 134);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+
+/**** main ****/
+
+main {
+    padding: 20px;
+}
+
+main section {
+    text-align: center;
+    margin: 15px;
+}
+
+.image div {
+    display: inline;
+}
+
+.button {
+    background-color: rgb(15, 134, 134);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+/**** footer ****/
+
+.footer div {
+    background-color: #bfecec;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 50px;
+}
+
+.footer div .info{
+  display: block;
+  text-align: center;
+}
